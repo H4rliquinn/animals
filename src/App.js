@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Grid, Form, Input, TextArea, Button, Select } from "semantic-ui-react";
-import "semantic-ui/dist/semantic.min.css";
+import 'semantic-ui-css/semantic.min.css';
 import styled from 'styled-components';
 
 
@@ -22,7 +22,7 @@ const WrapperDiv=styled.div`width:100%;height:100%;`;
     <div className="App">
       <h1>TEST TITLE</h1>
       <h2>Animals</h2>
-      {/* <Grid
+      <Grid
   textAlign="center"
   style={{ height: "100vh", width: "80%", margin: "0 auto", marginTop: "40px" }}
   verticalAlign="middle"
@@ -63,7 +63,7 @@ const WrapperDiv=styled.div`width:100%;height:100%;`;
       label="Label with htmlFor"
     />
   </Form>
-</Grid> */}
+</Grid>
 
     </div>
   );
